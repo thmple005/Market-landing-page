@@ -34,7 +34,7 @@ export default function AdminDemoRequests() {
     setLoading(true)
     setError(null)
 
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000/";
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://market-landing-page-kt86.vercel.app/";
 
     try {
       const response = await fetch(`${baseUrl}/api/demo-request?page=1&limit=5`, {
