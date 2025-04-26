@@ -10,7 +10,7 @@ export default function AdminLogin() {
   const [authLoading, setAuthLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3002/"
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://market-landing-page-kt86.vercel.app/"
 
   const handleLogin = async () => {
     setAuthLoading(true)
