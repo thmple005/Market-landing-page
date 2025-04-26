@@ -68,7 +68,7 @@ export async function submitDemoRequest(formData: FormData) {
     //   body: JSON.stringify(data),
     // })
 
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://market-landing-page-kt86.vercel.app/";
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://market-landing-page-ysv9-pr01r26l4.vercel.app";
     console.log("baseUrl=>", baseUrl);
     const response = await fetch(`${baseUrl}/api/demo-request`, {
       method: "POST",
