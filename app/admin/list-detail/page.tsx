@@ -29,7 +29,7 @@ interface Pagination {
   total?: number
 }
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://market-landing-page-ysv9-pr01r26l4.vercel.app"
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://market-landing-page-ysv9.vercel.app"
 const apiKey = "your_api_key_here"
 
 export default function AdminDashboard() {
